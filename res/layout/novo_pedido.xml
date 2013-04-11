@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TableRow>
+	    
+	    <TextView android:id="@+id/loader" android:visibility="visible" android:text="Carregando informações..." android:layout_weight="2" />
+	    
+	</TableRow>
+    
+	<TableRow>
+	    
+	    <TextView android:text="Nome da loja"/>
+	    <TextView android:id="@+id/novoPedidoNomeLoja" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Nome do Comprador"/>
+	    <TextView android:id="@+id/nomeComprador" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Telefone do Comprador"/>
+	    <TextView android:id="@+id/telefoneComprador" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="E-mail do Comprador"/>
+	    <TextView android:id="@+id/emailComprador" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Valor do Pedido"/>
+	    <TextView android:id="@+id/valorTotalPedido" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Forma de Pagamento"/>
+	    <TextView android:id="@+id/formaDePagamento" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Número de Parcelas"/>
+	    <TextView android:id="@+id/numeroDeParcelas" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Tipo de Frete"/>
+	    <TextView android:id="@+id/tipoDeFrete" />
+	    
+	</TableRow>
+	
+	<TableRow>
+	    
+	    <TextView android:text="Status do Pedido:"/>
+	    <TextView android:id="@+id/pedidoStatus" />
+	    
+	</TableRow>
+	
+</TableLayout>

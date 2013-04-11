@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asccode.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+   <!-- Only this application can receive the messages and registration result --> 
+   <permission android:name="com.asccode.ui.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    
+    <uses-sdk android:minSdkVersion="15" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> 
+    <uses-permission android:name="com.asccode.ui.permission.C2D_MESSAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="CadastrarLoja"></activity>
+        <activity android:name="EditarLoja"></activity>
+        <activity android:name="ListagemLojas"></activity>
+        <activity android:name=".ExcluirLojas"></activity>
+        
+        <service android:name="com.asccode.services.SincronizaLojas"></service>
+        
+        <!--  PUSH  GOOGLE  -->
+                
+      <receiver android:name="com.asccode.broadcasts.C2DM_RegistrationReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+          <intent-filter>           
+              <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+              <category android:name="com.asccode.ui" />
+          </intent-filter>
+      </receiver>
+      <receiver android:name="com.asccode.broadcasts.C2DM_MessageReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+          <intent-filter>
+              <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+              <category android:name="com.asccode.ui" />
+          </intent-filter> 
+      </receiver>
+      <activity android:name="NovoPedido"></activity> 
+     
+        
+    </application>
+
+</manifest>

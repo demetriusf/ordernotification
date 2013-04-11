@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:stretchColumns="1" >
+
+	<TableRow>
+	    
+		<TextView android:text="Nome da Loja" />
+		<EditText android:id="@+id/edtNomeDaLoja" android:text="" />   
+	    
+	</TableRow>   
+   
+	<TableRow>
+	    
+		<TextView android:text="Key da loja" />
+		<EditText android:id="@+id/edtKeyDaLoja" android:text="" />   
+	    
+	</TableRow> 
+
+	<TableRow>
+	    
+		<Button android:text="Editar" android:layout_width="60dip" android:id="@+id/edtSalvar" />	   
+	    
+	</TableRow>  
+	
+</TableLayout>
