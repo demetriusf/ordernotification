@@ -32,7 +32,7 @@ public class NotificationApp {
 		Notification notification = new Notification();
 		notification.when = when;
 		notification.defaults |= Notification.DEFAULT_SOUND;
-		notification.flags |= Notification.FLAG_AUTO_CANCEL;
+		//notification.flags |= Notification.FLAG_AUTO_CANCEL;
 		
 		notification.icon = com.asccode.ui.R.drawable.ic_notification;
 		
