@@ -5,7 +5,7 @@ public class Loja {
 	private Integer id;
 	private String nome;
 	private String key;
-	
+
 	public Integer getId(){
 		return id;
 	}

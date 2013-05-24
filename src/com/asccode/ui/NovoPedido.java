@@ -4,7 +4,9 @@ import android.app.Activity;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 import com.asccode.dao.LojaDao;
 import com.asccode.model.Loja;
 import com.asccode.model.Pedido;
@@ -21,25 +23,52 @@ public class NovoPedido extends Activity{
 		super.onCreate(bundle);
 
 		this.loja = new LojaDao(this).pegaLojaPeloId(getIntent().getIntExtra("idLoja", 0));
-        int codigoIdPedido = getIntent().getIntExtra("codigoIdPedido", 0);
+        String codigoIdPedido = getIntent().getStringExtra("codigoIdPedido");
+        String url = getIntent().getStringExtra("url");
 
-        new PedidoDataTask(this, this.loja.getId(), codigoIdPedido, pedido).execute();
+        Log.d("WEBSERVICE", "Nome: "+this.loja.getNome()+" - CodigoIdPedido: "+codigoIdPedido+" - url: "+url);
+
+        new PedidoDataTask(this, this.loja.getId(), codigoIdPedido, pedido, url).execute();
 
 	}
 
-    public void plotaDadosTela(){
+    public void plotaDadosTela( Pedido pedido ){
 
+        this.pedido = pedido;
         this.setContentView(R.layout.novo_pedido);
 
         TextView novoPedidoNomeLoja = (TextView) findViewById(R.id.novoPedidoNomeLoja);
         novoPedidoNomeLoja.setText(loja.getNome());
 
-        TextView tv = (TextView) findViewById(R.id.nomeComprador);
-        tv.setText(pedido.getNomeComprador());
+        TextView nomeComprador = (TextView) findViewById(R.id.nomeComprador);
+        nomeComprador.setText(pedido.getNomeComprador());
+
+        TextView telefoneComprador = (TextView) findViewById(R.id.telefoneComprador);
+        telefoneComprador.setText(pedido.getTelefoneComprador());
+
+        TextView emailComprador = (TextView) findViewById(R.id.emailComprador);
+        emailComprador.setText(pedido.getEmailComprador());
+
+        TextView valorTotalPedido = (TextView) findViewById(R.id.valorTotalPedido);
+        valorTotalPedido.setText(pedido.getValorTotalPedido());
+
+        TextView formaDePagamento = (TextView) findViewById(R.id.formaDePagamento);
+        formaDePagamento.setText(pedido.getFormaDePagamento());
+
+        TextView numeroDeParcelas = (TextView) findViewById(R.id.numeroDeParcelas);
+        numeroDeParcelas.setText(pedido.getNumeroDeParcelas());
+
+        TextView tipoDeFrete = (TextView) findViewById(R.id.tipoDeFrete);
+        tipoDeFrete.setText(pedido.getTipoDeFrete());
+
+        TextView pedidoStatus = (TextView) findViewById(R.id.pedidoStatus);
+        pedidoStatus.setText(pedido.getPedidoStatus());
 
         NotificationManager nm = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
 
-        nm.cancelAll();
+        Toast.makeText(this, String.valueOf(getIntent().getIntExtra("notification_when", 0)), Toast.LENGTH_SHORT).show();
+
+        nm.cancel(getIntent().getIntExtra("notification_when", 0));
 
     }
 

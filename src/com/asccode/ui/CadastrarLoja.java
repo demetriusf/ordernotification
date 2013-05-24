@@ -26,16 +26,16 @@ public class CadastrarLoja extends Activity {
 				
 				EditText cadNomeDaLoja = (EditText) findViewById(R.id.cadNomeDaLoja);
 				EditText cadKeyDaLoja = (EditText) findViewById(R.id.cadKeyDaLoja);
-				
+
 				Loja loja = new Loja();
 				loja.setNome(cadNomeDaLoja.getText().toString());
 				loja.setKey(cadKeyDaLoja.getText().toString());
-				
+
 				Boolean feedback = new LojaController(CadastrarLoja.this).cadastrar(loja);
 				
 				if( !feedback ){
 				
-					Toast.makeText(CadastrarLoja.this, "Para realizar o cadastro você precisa preencher todos os campos!", Toast.LENGTH_LONG).show();
+					Toast.makeText(CadastrarLoja.this, "Para realizar o cadastro vocï¿½ precisa preencher todos os campos!", Toast.LENGTH_LONG).show();
 					
 				}else{// Pode cadastrar diboa
 					

@@ -15,7 +15,7 @@ public class LojaDao extends SQLiteOpenHelper {
 	
 	public static final String NOME_TABELA = "lojas";
 	public static final String []COLUNAS = {"id", "nome", "key"};
-	public static final int VERSION = 5;
+	public static final int VERSION = 7;
 	
 	private Context context;
 	
@@ -32,7 +32,7 @@ public class LojaDao extends SQLiteOpenHelper {
 		ContentValues cv = new ContentValues();
 		cv.put(LojaDao.COLUNAS[1], loja.getNome() );
 		cv.put(LojaDao.COLUNAS[2], loja.getKey() );
-		
+
 		getWritableDatabase().insert(LojaDao.NOME_TABELA, null, cv); 
 						
 	}
@@ -43,7 +43,7 @@ public class LojaDao extends SQLiteOpenHelper {
 		ContentValues cv = new ContentValues();
 		cv.put(LojaDao.COLUNAS[1], loja.getNome() );
 		cv.put(LojaDao.COLUNAS[2], loja.getKey() );
-		
+
 		getWritableDatabase().update(LojaDao.NOME_TABELA, cv, "id=?", new String[]{String.valueOf(loja.getId())});
 		
 	}
@@ -71,7 +71,7 @@ public class LojaDao extends SQLiteOpenHelper {
 				lojaTemp.setId( cursor.getInt(0) );
 				lojaTemp.setNome( cursor.getString(1) );
 				lojaTemp.setKey( cursor.getString(2) );
-				
+
 				lojas.add(lojaTemp);
 				
 			}
@@ -102,10 +102,10 @@ public class LojaDao extends SQLiteOpenHelper {
 			lojaResgatada.setId( cursor.getInt(0) );
 			lojaResgatada.setNome( cursor.getString(1) );
 			lojaResgatada.setKey( cursor.getString(2) );
-						
+
 		}else{
 			
-			throw new RuntimeException("A identificação da loja não existe no nosso banco de dados");
+			throw new RuntimeException("A identificaï¿½ï¿½o da loja nï¿½o existe no nosso banco de dados");
 			
 		}
 		
@@ -133,10 +133,10 @@ public class LojaDao extends SQLiteOpenHelper {
 			lojaResgatada.setId( cursor.getInt(0) );
 			lojaResgatada.setNome( cursor.getString(1) );
 			lojaResgatada.setKey( cursor.getString(2) );
-						
+
 		}else{
 			
-			throw new RuntimeException("A key da loja não existe no nosso banco de dados");
+			throw new RuntimeException("A key da loja nï¿½o existe no nosso banco de dados");
 			
 		}
 		

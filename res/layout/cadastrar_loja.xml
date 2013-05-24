@@ -13,7 +13,7 @@
 		<TextView android:text="Key da loja" />
 		<EditText android:id="@+id/cadKeyDaLoja" />   
 	    
-	</TableRow> 
+	</TableRow>
 
 	<TableRow>
 	    

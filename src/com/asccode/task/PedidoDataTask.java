@@ -6,6 +6,8 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
+import android.util.Log;
+import com.asccode.model.Loja;
 import com.asccode.model.Pedido;
 import com.asccode.ui.NovoPedido;
 import com.asccode.ui.R;
@@ -15,21 +17,26 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 public class PedidoDataTask extends AsyncTask<Object, Object, Boolean> {
 
-    private int idLoja;
-    private int codigoIdPedido;
+    private String codigoIdPedido;
     private Context context;
+    private int idLoja;
     private Pedido pedido;
+    private String url;
     private ProgressDialog progressDialog;
 
-    public PedidoDataTask(Context context, int codigoIdPedido, int idLoja, Pedido pedido) {
+    public PedidoDataTask(Context context, int idLoja, String codigoIdPedido, Pedido pedido, String url) {
+
         this.context = context;
-        this.codigoIdPedido = codigoIdPedido;
         this.idLoja = idLoja;
+        this.codigoIdPedido = codigoIdPedido;
         this.pedido = pedido;
+        this.url = url;
+
     }
 
     @Override
@@ -43,7 +50,18 @@ public class PedidoDataTask extends AsyncTask<Object, Object, Boolean> {
     protected Boolean doInBackground(Object... objects) {
 
         DefaultHttpClient defaultHttpClient = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("http://www.plugadosti.com.br/EasyC2DM/recovery_order_data.php?loja="+this.idLoja+"&codigoIdPedido="+this.codigoIdPedido);
+        HttpGet httpGet = null;
+
+        try {
+
+            httpGet = new HttpGet( java.net.URLDecoder.decode(url, "UTF-8")+"/pega_pedido.php?id_pedido="+codigoIdPedido );
+
+        } catch (UnsupportedEncodingException e) {
+
+            Log.d("WEBSERVICE",e.getMessage());
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+
+        }
 
 
         try {
@@ -52,12 +70,13 @@ public class PedidoDataTask extends AsyncTask<Object, Object, Boolean> {
 
             Gson gson = new Gson();
 
-            Pedido pedido = gson.fromJson(EntityUtils.toString(httpResponse.getEntity()), Pedido.class);
+            this.pedido = gson.fromJson(EntityUtils.toString(httpResponse.getEntity()), Pedido.class);
 
             return true;
 
         } catch (Exception e) {
 
+            Log.d("WEBSERVICE",e.getMessage());
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
 
         }
@@ -73,7 +92,7 @@ public class PedidoDataTask extends AsyncTask<Object, Object, Boolean> {
 
         if(result){
 
-            ((NovoPedido)this.context).plotaDadosTela();
+            ((NovoPedido)this.context).plotaDadosTela(pedido);
 
         }else{
 

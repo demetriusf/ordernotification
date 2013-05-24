@@ -20,14 +20,16 @@ public class C2DM_MessageReceiver extends BroadcastReceiver {
             String operacao = intent.getStringExtra("operacao"); 
              
             if("NOVO_PEDIDO".equals(operacao)){ //Cria notification novo pedido
-            	
+
             	String keyLoja = intent.getStringExtra("key");
             	String codigoIdPedido = intent.getStringExtra("codigoIdPedido");
-            	
+            	String url = intent.getStringExtra("url");
+            	String valorPedido = intent.getStringExtra("pedidoValor");
+
             	Loja loja = new LojaDao(context).pegaLojaPelaKey(keyLoja);
 
             	if( loja != null )
-            		new NotificationApp(context).criaNotificacaoNovoPedido(loja, codigoIdPedido);            	
+            		new NotificationApp(context).criaNotificacaoNovoPedido(loja, codigoIdPedido, url, valorPedido);
             	
             }
             

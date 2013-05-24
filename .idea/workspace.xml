@@ -14,28 +14,64 @@
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-10" />
         <option name="theme" value="Theme" />
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="WEBSER" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e6d513b1-33f1-4394-b5dc-e4e8314a7800" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\git-android\ordernotification\.idea\dictionaries\jougabetta.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/asccode/ui/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/asccode/ui/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/asccode/ui/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/asccode/ui/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/broadcasts/C2DM_MessageReceiver.java" afterPath="$PROJECT_DIR$/src/com/asccode/broadcasts/C2DM_MessageReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/ui/CadastrarLoja.java" afterPath="$PROJECT_DIR$/src/com/asccode/ui/CadastrarLoja.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/ui/EditarLoja.java" afterPath="$PROJECT_DIR$/src/com/asccode/ui/EditarLoja.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/model/Loja.java" afterPath="$PROJECT_DIR$/src/com/asccode/model/Loja.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/dao/LojaDao.java" afterPath="$PROJECT_DIR$/src/com/asccode/dao/LojaDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java" afterPath="$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/ui/NovoPedido.java" afterPath="$PROJECT_DIR$/src/com/asccode/ui/NovoPedido.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/asccode/ui/R.java" afterPath="$PROJECT_DIR$/gen/com/asccode/ui/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/model/Pedido.java" afterPath="$PROJECT_DIR$/src/com/asccode/model/Pedido.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java" afterPath="$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/cadastrar_loja.xml" afterPath="$PROJECT_DIR$/res/layout/cadastrar_loja.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/editar_loja.xml" afterPath="$PROJECT_DIR$/res/layout/editar_loja.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/novo_pedido.xml" afterPath="$PROJECT_DIR$/res/layout/novo_pedido.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ordernotification.iml" afterPath="$PROJECT_DIR$/ordernotification.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ordernotification.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1365690733248" ignored="false" />
+    <file path="/Dummy.txt" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369427952133" ignored="false" />
     <file path="/LojaController.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1365687746115" ignored="false" />
-    <file path="/PedidoDataTask.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1365699232276" ignored="false" />
-    <file path="/NovoPedido.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1365699330070" ignored="false" />
+    <file path="/PedidoDataTask.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368820670602" ignored="false" />
+    <file path="/NovoPedido.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369428881360" ignored="false" />
+    <file path="$PROJECT_DIR$/../sites-watch/AndroidManifest.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1366395981140" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1366395296567" ignored="false" />
+    <file path="$PROJECT_DIR$/../sites-watch/src/com/asccode/siteswatch/gcm/GCMDeviceManager.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1366395654281" ignored="false" />
+    <file path="/GCMDeviceManager.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1366395646286" ignored="false" />
+    <file path="$PROJECT_DIR$/../sites-watch/src/com/asccode/siteswatch/support/NotificationSupport.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1367602259688" ignored="false" />
+    <file path="/NotificationSupport.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1367602219765" ignored="false" />
+    <file path="$PROJECT_DIR$/../sites-watch/src/com/asccode/siteswatch/telas/Main.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1367602296763" ignored="false" />
+    <file path="/Main.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1367602292058" ignored="false" />
+    <file path="/NotificationApp.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369428602435" ignored="false" />
+    <file path="/fragment.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368820828888" ignored="false" />
+    <file path="/CadastrarLoja.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368812298578" ignored="false" />
+    <file path="/cadastrar_loja.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368812252204" ignored="false" />
+    <file path="/editar_loja.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368812334001" ignored="false" />
+    <file path="/EditarLoja.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368812473883" ignored="false" />
+    <file path="/LojaDao.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1368812652736" ignored="false" />
+    <file path="/C2DM_MessageReceiver.java" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369425775565" ignored="false" />
+    <file path="/novo_pedido.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369331681188" ignored="false" />
+    <file path="/style.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369332142298" ignored="false" />
+    <file path="/color.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369329127273" ignored="false" />
+    <file path="/drawable.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369329430019" ignored="false" />
+    <file path="/background_field.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369329822550" ignored="false" />
+    <file path="/background_field_par.xml" changelist="e6d513b1-33f1-4394-b5dc-e4e8314a7800" time="1369331096217" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +121,22 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java" line="2" class="PedidoDataTask.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -94,15 +146,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PedidoDataTask.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java">
+      <file leaf-file-name="NovoPedido.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/NovoPedido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="28" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.5882353">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2510#2756#0" expanded="true" />
-                <element signature="e#2741#2742#0" expanded="true" />
-              </folding>
+            <state line="68" column="121" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.6764706">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="127" selection-start="2240" selection-end="2316" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,10 +182,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/asccode/controller/LojaController.java" />
-        <option value="$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java" />
+        <option value="$PROJECT_DIR$/src/com/asccode/dao/LojaDao.java" />
+        <option value="$PROJECT_DIR$/src/com/asccode/ui/EditarLoja.java" />
+        <option value="$PROJECT_DIR$/res/layout/cadastrar_loja.xml" />
+        <option value="$PROJECT_DIR$/res/layout/editar_loja.xml" />
+        <option value="$PROJECT_DIR$/src/com/asccode/ui/CadastrarLoja.java" />
         <option value="$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java" />
+        <option value="$PROJECT_DIR$/src/com/asccode/model/Pedido.java" />
+        <option value="$PROJECT_DIR$/res/values/drawable.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/background_field.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/background_field_par.xml" />
+        <option value="$PROJECT_DIR$/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/res/layout/novo_pedido.xml" />
+        <option value="$PROJECT_DIR$/src/com/asccode/broadcasts/C2DM_MessageReceiver.java" />
+        <option value="$PROJECT_DIR$/res/values/style.xml" />
+        <option value="$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java" />
         <option value="$PROJECT_DIR$/src/com/asccode/ui/NovoPedido.java" />
       </list>
     </option>
@@ -165,16 +233,13 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ordernotification" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -202,6 +267,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asccode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asccode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,36 +372,172 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asccode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asccode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asccode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="broadcasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ordernotification" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="OverrideImplement.combined" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/gson-1.7.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="304D19554E50288E" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="android_lvl_17" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git-android\ordernotification\libs" />
+      <recent name="C:\git-android\ordernotification\res\raw" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\git-android\ordernotification\libs" />
     </key>
@@ -347,19 +574,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -385,6 +599,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -441,7 +668,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -474,26 +701,26 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6718576" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6718576" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6718576" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6718576" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32741398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.6718576" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18569905" sideWeight="0.6718576" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6718576" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6718576" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -560,41 +787,74 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/EditarLoja.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+        <state line="17" column="22" selection-start="485" selection-end="486" vertical-scroll-proportion="0.23529412" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/cadastrar_loja.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="507" selection-end="507" vertical-scroll-proportion="0.4722222">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/controller/LojaController.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/editar_loja.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="47" selection-start="455" selection-end="455" vertical-scroll-proportion="0.37777779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/CadastrarLoja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="599" selection-end="599" vertical-scroll-proportion="0.44117647" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="47" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="432" selection-end="432" vertical-scroll-proportion="0.17485714">
+        <state line="9" column="38" selection-start="431" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/controller/LojaController.java">
+    <entry file="file://$PROJECT_DIR$/res/drawable/background_field.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="160" selection-end="160" vertical-scroll-proportion="0.019428572">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="91" selection-start="106" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/ModeloListagemExclusao.java">
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="467" selection-end="467" vertical-scroll-proportion="0.11764706">
+        <state line="4" column="34" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/background_field_par.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="91" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/style.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -604,61 +864,43 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="379" selection-end="379" vertical-scroll-proportion="0.3074141">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/model/Loja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.05882353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/services/SincronizaLojas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="158" selection-start="1547" selection-end="1659" vertical-scroll-proportion="1.382353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="298" selection-end="298" vertical-scroll-proportion="0.11764706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/NovoPedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="318" selection-end="318" vertical-scroll-proportion="0.29411766">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="10" selection-start="919" selection-end="919" vertical-scroll-proportion="0.44117647">
+        <state line="19" column="81" selection-start="804" selection-end="804" vertical-scroll-proportion="-12.92">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/asccode/model/Pedido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="306" selection-end="306" vertical-scroll-proportion="0.32352942">
+        <state line="9" column="18" selection-start="226" selection-end="232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/asccode/task/PedidoDataTask.java">
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/services/SincronizaLojas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="28" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.5882353">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2510#2756#0" expanded="true" />
-            <element signature="e#2741#2742#0" expanded="true" />
-          </folding>
+        <state line="20" column="13" selection-start="559" selection-end="559" vertical-scroll-proportion="0.029411765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/broadcasts/C2DM_MessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="35" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.5294118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/utils/NotificationApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="127" selection-start="2240" selection-end="2316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/asccode/ui/NovoPedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="121" selection-start="2625" selection-end="2625" vertical-scroll-proportion="0.6764706">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +944,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android 2.3.3 Google Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -719,6 +961,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -738,7 +981,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gson-1.7.1</last-edited>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

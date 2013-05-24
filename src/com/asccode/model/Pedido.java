@@ -7,7 +7,7 @@ public class Pedido {
 	private String emailComprador;
 	private String valorTotalPedido;
 	private String formaDePagamento;
-	private int numeroDeParcelas;
+	private String numeroDeParcelas;
 	private String tipoDeFrete;
 	private String pedidoStatus;
 	
@@ -55,11 +55,11 @@ public class Pedido {
 		this.formaDePagamento = formaDePagamento;
 	}
 
-	public int getNumeroDeParcelas() {
+	public String getNumeroDeParcelas() {
 		return numeroDeParcelas;
 	}
 
-	public void setNumeroDeParcelas(int numeroDeParcelas) {
+	public void setNumeroDeParcelas(String numeroDeParcelas) {
 		this.numeroDeParcelas = numeroDeParcelas;
 	}
 

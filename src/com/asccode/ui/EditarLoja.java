@@ -18,7 +18,7 @@ public class EditarLoja extends Activity {
 	private Loja loja;
 	private EditText edtNomeDaLoja;
 	private EditText edtKeyDaLoja;
-	
+
 	@Override
 	public void onCreate(Bundle bundle){
 		
@@ -35,10 +35,10 @@ public class EditarLoja extends Activity {
 			
 			this.edtNomeDaLoja = (EditText) findViewById(R.id.edtNomeDaLoja);
 			this.edtKeyDaLoja = (EditText) findViewById(R.id.edtKeyDaLoja);
-			
+
 			edtNomeDaLoja.setText(this.loja.getNome());
 			edtKeyDaLoja.setText(this.loja.getKey());
-			
+
 			Button edtSalvar = (Button) findViewById(R.id.edtSalvar);
 			
 			edtSalvar.setOnClickListener(new View.OnClickListener() {
@@ -47,16 +47,16 @@ public class EditarLoja extends Activity {
 
 					loja.setNome(edtNomeDaLoja.getText().toString());
 					loja.setKey(edtKeyDaLoja.getText().toString());
-					
+
 					Boolean feedback = new LojaController(EditarLoja.this).editar(loja);
 					
 					if( !feedback ){
 					
-						Toast.makeText(EditarLoja.this, "Para realizar a edição você precisa preencher todos os campos!", Toast.LENGTH_LONG).show();
+						Toast.makeText(EditarLoja.this, "Para realizar a ediï¿½ï¿½o vocï¿½ precisa preencher todos os campos!", Toast.LENGTH_LONG).show();
 						
 					}else{// Pode editar diboa
 						
-						Toast.makeText(EditarLoja.this, "A alteração da loja foi realizado com sucesso", Toast.LENGTH_LONG).show();
+						Toast.makeText(EditarLoja.this, "A alteraï¿½ï¿½o da loja foi realizado com sucesso", Toast.LENGTH_LONG).show();
 						finish();
 						
 					}
@@ -67,7 +67,7 @@ public class EditarLoja extends Activity {
 						
 		}else{
 			
-			Toast.makeText(this, "Essa loja não existe!", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Essa loja nï¿½o existe!", Toast.LENGTH_LONG).show();
 			finish();
 			
 		}
