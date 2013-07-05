@@ -10,7 +10,7 @@
         <TableRow android:background="@drawable/background_field">
 
             <TextView android:text="Nome da loja: " style="@style/field"/>
-            <TextView android:id="@+id/novoPedidoNomeLoja" style="@style/field_value" />
+            <TextView android:id="@+id/novoPedidoNomeLoja" style="@style/field_value"/>
 
         </TableRow>
 

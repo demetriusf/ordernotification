@@ -40,13 +40,13 @@ public class NotificationApp {
         notificationIntent.putExtra("notification_when", when);
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
-                .setContentTitle("Novo pedido")
+                .setContentTitle("Novo pedido ")
                 .setContentText(String.format("A loja %s acaba de obter um novo pedido", nomeLoja))
                 .setSmallIcon(com.asccode.ui.R.drawable.ic_notification)
                 .setAutoCancel(false);
 
 
-        if( Double.parseDouble(valorPedido) > 10000.00 ){
+        if( Double.parseDouble(valorPedido) >= 10000.00 ){
 
             mBuilder.setSound( Uri.parse(context.getContentResolver().SCHEME_ANDROID_RESOURCE+"://" + context.getPackageName() + "/raw/tamo_rico") );
 
@@ -61,7 +61,7 @@ public class NotificationApp {
         stackBuilder.addParentStack(Main.class);
 
         stackBuilder.addNextIntent(notificationIntent);
-        PendingIntent resultPendingIntent = stackBuilder.getPendingIntent( 0, PendingIntent.FLAG_UPDATE_CURRENT );
+        PendingIntent resultPendingIntent = stackBuilder.getPendingIntent( when, PendingIntent.FLAG_ONE_SHOT );
 
         mBuilder.setContentIntent(resultPendingIntent);
 

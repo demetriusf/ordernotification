@@ -66,8 +66,6 @@ public class NovoPedido extends Activity{
 
         NotificationManager nm = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
 
-        Toast.makeText(this, String.valueOf(getIntent().getIntExtra("notification_when", 0)), Toast.LENGTH_SHORT).show();
-
         nm.cancel(getIntent().getIntExtra("notification_when", 0));
 
     }
